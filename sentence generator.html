@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sentence Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2 style="margin-top:0;border-top:0;">Dictionary</h2>
+        <div>
+            <input id="termin" class="term" placeholder="*Term">
+            <input id="meanings" class="meanings" placeholder="*meaning1, meaning2, meaning3, . . ." size="64">
+            <button onclick="addTerm()"> + </button>
+        </div>
+        <hr class="minihr">
+        <ol id="definitions">
+
+        </ol>
+        <h2>Sentence Structures</h2>
+        <div>
+            <input id="sentencein" placeholder="*Sentence with the Term">
+            <button onclick="addSentence()"> + </button>
+        </div>
+        <hr class="minihr">
+        <ol id="sentences">
+            
+        </ol>
+        <h2>Results</h2>
+        <button onclick="generate()">Generate</button>
+        <hr class="minihr">
+        <p class="count"><span id="resultscount">0</span> Results</p>
+        <textarea id="results" readonly></textarea>
+        <script src="main.js"></script>
+    </body>
+</html>

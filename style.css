@@ -1,0 +1,43 @@
+body{
+    margin-left:4em;
+    margin-bottom:10em;
+}
+h2 {
+    margin-top:4em;
+    border-top:2px solid white;
+}
+input.term, input.meanings {
+    display:block;
+    margin:0.5em 0;
+}
+
+.sencontainer p, .defcontainer p{
+    display:inline;
+}
+
+p, span, body {
+    background-color:black;
+    color:white;
+}
+button {
+    background-color:cyan;
+}
+button, input, textarea {
+    padding:0.25em 2em;
+    color:black;
+    border-radius:1em;
+    outline:none;
+    border:none;
+}
+.count, .count *{
+    color:grey;
+    font-size:0.8em;
+}
+.minihr {
+    height:1px;
+    background-color:grey;
+    border:0;
+}
+li {
+    margin:0.5em 0;
+}
